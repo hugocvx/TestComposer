@@ -1,0 +1,32 @@
+name: military_symbols_quiz
+description: A Flutter application that provides quizzes on military symbols using FlutterPerformanceHistorian and FlutterMilSymbol packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # flutter_performance_historian:
+  #   git:
+  #     url: https://github.com/hugocvx/FlutterPerformanceHistorian.git
+  # flutter_mil_symbol:
+  #   git:
+  #     url: https://github.com/hugocvx/FlutterMilSymbol.git
+  # Note: Using mock implementations for development since packages may not be available
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/symbols/
