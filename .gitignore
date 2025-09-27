@@ -1,0 +1,24 @@
+# Build outputs
+build/
+dist/
+
+# Dependencies
+.packages
+.pub-cache/
+.pub/
+.dart_tool/
+
+# Flutter/Dart specific
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Demo script (not part of the main app)
+demo_quiz.dart
